@@ -4,3 +4,15 @@
 <img src="https://raw.githubusercontent.com/Nitin-M-1/Movie-API-Base-Project-Using-REACT/master/src/assets/img_1.JPG" alt="" />
 <img src="https://raw.githubusercontent.com/Nitin-M-1/Movie-API-Base-Project-Using-REACT/master/src/assets/img_2.JPG" alt="" />
 <img src="https://raw.githubusercontent.com/Nitin-M-1/Movie-API-Base-Project-Using-REACT/master/src/assets/img_3.JPG" alt="" />
+
+
+## Project Setup
+
+```sh
+npm install
+```
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
