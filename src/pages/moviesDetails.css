@@ -1,0 +1,43 @@
+.movies-details-container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+.movie-poster-container {
+  width: 700px;
+}
+.movie-detail-container p {
+  width: 80%;
+}
+.movie-detail-container img {
+}
+.movie-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.review-star-container {
+  display: flex;
+  gap: 10px;
+}
+.movie-poster-container {
+}
+.star {
+  color: yellow;
+}
+.movie-detail-container ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+  .movies-details-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .movie-poster-container {
+    width: 400px;
+  }
+}

@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px 15px 30px;
+  color: white;
+}
+.social-media-links {
+  display: flex;
+  gap: 35px;
+  cursor: pointer;
+}
+.social-media-links li {
+  transition: all 0.3s;
+}
+.social-media-links li:hover {
+  transform: translateY(-4px);
+  color: rgb(252, 31, 138);
+}
+@media screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

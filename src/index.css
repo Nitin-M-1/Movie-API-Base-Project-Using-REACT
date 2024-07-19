@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+:root {
+  --dark-mode-text-color: "#000";
+}
+* {
+  font-family: "Sora", sans-serif;
+}
+body {
+  background-color: rgb(26, 26, 59);
+}

@@ -1,0 +1,17 @@
+c54aac08d3a66261e65cde11dbce537c
+Individual 
+  https://api.themoviedb.org/3/movie/12?api_key=c54aac08d3a66261e65cde11dbce537c&language=en-US&page=1
+search:- 
+https://api.themoviedb.org/3/search/movie?api_key=c54aac08d3a66261e65cde11dbce537c&query={movie_name}&include_adult=false&language=en-US&page=1
+
+Popular:- 
+https://api.themoviedb.org/3/movie/popular?api_key=c54aac08d3a66261e65cde11dbce537c&language=en-US&page=1
+
+Now_Playing:- 
+https://api.themoviedb.org/3/movie/now_playing?api_key=c54aac08d3a66261e65cde11dbce537c&language=en-US&page=1
+
+Top Rated:- 
+https://api.themoviedb.org/3/movie/top_rated?api_key=c54aac08d3a66261e65cde11dbce537c&language=en-US&page=1
+
+upcoming:- 
+https://api.themoviedb.org/3/movie/upcoming?api_key=c54aac08d3a66261e65cde11dbce537c&language=en-US&page=1

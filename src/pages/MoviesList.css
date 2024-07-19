@@ -1,0 +1,10 @@
+main {
+  background-color: rgb(26, 26, 59);
+  padding: 50px 50px;
+}
+.main-list-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

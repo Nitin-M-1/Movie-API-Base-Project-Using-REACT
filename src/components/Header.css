@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+.header-container {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(16, 16, 35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+.company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.company-logo h2 {
+  color: white;
+}
+.company-logo img {
+  width: 35px;
+  height: 39px;
+}
+li {
+  list-style: none;
+}
+.menu ul {
+  display: flex;
+  gap: 25px;
+}
+a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+  transition: all 0.2s;
+}
+.active {
+  font-weight: 800;
+  transform: translateY(5px);
+  color: rgb(252, 31, 138);
+}
+
+.key-fetures {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+}
+.key-fetures button {
+  padding: 10px;
+  background-color: rgb(42, 42, 85);
+  border: 1px solid rgba(170, 170, 170, 0.466);
+  color: rgba(229, 229, 229, 0.569);
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box i {
+  background-color: white;
+  color: rgb(197, 197, 197);
+  padding: 10px 5px 10px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(42, 42, 85);
+}
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgb(42, 42, 85);
+  color: white;
+}
+.mobile-Menu {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.2s;
+  }
+  .menu,
+  .key-fetures {
+    display: none;
+  }
+  .hideVisibility {
+    display: none;
+  }
+  .showVisibility {
+    display: flex;
+  }
+  .mobile-Menu {
+    display: block;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 21px;
+    right: 15px;
+    color: white;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .key-fetures {
+    width: 100%;
+  }
+  .key-fetures input {
+    width: 100%;
+  }
+}
